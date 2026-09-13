@@ -1,47 +1,24 @@
 <!doctype html>
 <html lang="es">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Atlas Selección</title>
-  <style>
-    html, body {
-      margin: 0;
-      width: 100%;
-      height: 100%;
-      background: #000;
-    }
-
-    body {
-      display: grid;
-      place-items: center;
-      font-family: Georgia, "Times New Roman", serif;
-    }
-
-    main {
-      width: min(88vw, 620px);
-      text-align: center;
-    }
-
-    img {
-      display: block;
-      width: 100%;
-      height: auto;
-    }
-
-    p {
-      margin: 26px 0 0;
-      color: #d4af57;
-      font-size: clamp(18px, 2.4vw, 30px);
-      letter-spacing: 0.18em;
-      text-transform: uppercase;
-    }
-  </style>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Atlas Selección · Carne halal premium</title>
+<style>
+:root{--gold:#c9a24d;--cream:#f3eee4;--muted:#aaa;--panel:#111;--line:#292929}*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:#070707;color:#f7f3ea;font-family:Arial,Helvetica,sans-serif}a{color:inherit;text-decoration:none}.wrap{width:min(1180px,92%);margin:auto}.top{background:var(--gold);color:#090909;text-align:center;padding:8px;font-size:12px;letter-spacing:.12em}.nav{height:82px;display:flex;align-items:center;justify-content:space-between;border-bottom:1px solid var(--line)}.brand{display:flex;align-items:center;gap:13px;font-family:Georgia,serif;letter-spacing:.12em}.brand img{width:62px;height:48px;object-fit:cover}.links{display:flex;gap:28px;font-size:13px}.cartbtn{border:1px solid var(--gold);padding:11px 15px;cursor:pointer;background:none;color:white}.hero{min-height:580px;display:grid;grid-template-columns:1.05fr .95fr;align-items:center;gap:55px}.eyebrow{color:var(--gold);font-size:12px;letter-spacing:.25em;text-transform:uppercase}.hero h1{font-family:Georgia,serif;font-weight:400;font-size:clamp(48px,6vw,82px);line-height:.98;margin:20px 0}.hero p{color:#b9b5ad;line-height:1.7;max-width:570px}.cta{display:inline-block;background:var(--gold);color:#080808;padding:16px 24px;margin-top:18px;font-weight:bold;font-size:13px}.heroVisual{height:430px;background:radial-gradient(circle at 55% 45%,#49352a 0,#1a1512 32%,#080808 72%);position:relative;display:grid;place-items:center;border:1px solid #201d19}.heroVisual:after{content:'PREMIUM · HALAL';font-family:Georgia,serif;font-size:38px;letter-spacing:.12em;color:#d7b665;border:1px solid #6d5930;padding:28px}.section{padding:85px 0}.section h2{font:400 42px Georgia,serif;margin:10px 0}.sub{color:#999;margin-bottom:35px}.products{display:grid;grid-template-columns:repeat(4,1fr);gap:18px}.card{background:#0d0d0d;border:1px solid var(--line);overflow:hidden}.photo{height:220px;background:linear-gradient(145deg,#251914,#090909);display:grid;place-items:center;color:#9d7a4b;font:28px Georgia,serif}.info{padding:20px}.tag{font-size:10px;color:var(--gold);letter-spacing:.18em}.info h3{font:24px Georgia,serif;margin:10px 0 5px}.desc{font-size:13px;color:#999;min-height:38px;line-height:1.45}.price{font-size:20px;margin:16px 0}.add{width:100%;padding:13px;background:transparent;color:white;border:1px solid #6e592e;cursor:pointer}.add:hover{background:var(--gold);color:black}.promise{border-top:1px solid var(--line);border-bottom:1px solid var(--line);display:grid;grid-template-columns:repeat(3,1fr);padding:34px 0;gap:20px}.promise div{text-align:center}.promise b{display:block;color:var(--gold);font:20px Georgia,serif;margin-bottom:7px}.promise span{font-size:12px;color:#999}.drawer{position:fixed;right:-430px;top:0;width:min(430px,100%);height:100vh;background:#0d0d0d;border-left:1px solid #333;z-index:10;transition:.3s;padding:28px;display:flex;flex-direction:column}.drawer.open{right:0}.drawerHead{display:flex;justify-content:space-between;align-items:center}.close{font-size:26px;cursor:pointer}.cartitems{flex:1;overflow:auto;margin:25px 0}.cartitem{display:grid;grid-template-columns:1fr auto;gap:10px;padding:15px 0;border-bottom:1px solid #292929}.cartitem small{color:#999}.remove{color:#b99048;cursor:pointer;font-size:12px}.total{display:flex;justify-content:space-between;font-size:21px;border-top:1px solid #333;padding-top:20px}.checkout{border:0;background:var(--gold);padding:16px;margin-top:18px;font-weight:bold;cursor:pointer}.overlay{display:none;position:fixed;inset:0;background:#000a;z-index:9}.overlay.on{display:block}.checkoutBox{display:none;position:fixed;inset:0;z-index:20;background:#080808;padding:30px;overflow:auto}.checkoutBox.on{display:block}.checkoutInner{max-width:650px;margin:30px auto}.checkoutInner input{width:100%;padding:14px;margin:7px 0;background:#111;border:1px solid #333;color:white}.row{display:grid;grid-template-columns:1fr 1fr;gap:10px}.test{background:#17130b;border:1px solid #604e29;color:#d6b35f;padding:12px;font-size:12px;margin:20px 0}.success{display:none;text-align:center;padding:80px 0}.success h2{font:44px Georgia,serif;color:var(--gold)}footer{padding:45px 0;color:#777;font-size:12px;border-top:1px solid var(--line)}@media(max-width:850px){.links{display:none}.hero{grid-template-columns:1fr;min-height:auto;padding:65px 0}.heroVisual{height:260px}.heroVisual:after{font-size:24px}.products{grid-template-columns:1fr 1fr}.promise{grid-template-columns:1fr}.row{grid-template-columns:1fr}}@media(max-width:520px){.products{grid-template-columns:1fr}.brand img{width:50px}.hero h1{font-size:48px}}
+</style>
 </head>
 <body>
-  <main>
-    <img src="logo.jpg" alt="Atlas Selección">
-    <p>Próximamente</p>
-  </main>
-</body>
-</html>
+<div class="top">ENVÍO REFRIGERADO · 100% HALAL · ESPAÑA PENINSULAR</div>
+<header class="wrap nav"><a class="brand" href="#"><img src="logo.jpg" alt="Atlas Selección"><span>ATLAS SELECCIÓN</span></a><nav class="links"><a href="#productos">Productos</a><a href="#calidad">Nuestra calidad</a><a href="#">Contacto</a></nav><button class="cartbtn" onclick="toggleCart()">Cesta · <span id="count">0</span></button></header>
+<main>
+<section class="wrap hero"><div><div class="eyebrow">Carne halal de alta selección</div><h1>El corte que<br>estabas buscando.</h1><p>Una selección de cortes premium, elegidos por su sabor, infiltración y calidad. Halal sin renunciar a la experiencia de una gran carne.</p><a class="cta" href="#productos">DESCUBRIR CORTES</a></div><div class="heroVisual"></div></section>
+<section id="calidad" class="wrap promise"><div><b>100% Halal</b><span>Productos seleccionados con certificación halal</span></div><div><b>Cadena de frío</b><span>Preparado para transporte refrigerado</span></div><div><b>Cortes premium</b><span>Selección pensada para una experiencia superior</span></div></section>
+<section id="productos" class="wrap section"><div class="eyebrow">La selección Atlas</div><h2>Nuestros cortes</h2><p class="sub">Productos y precios de demostración para la tienda V0.1.</p><div class="products" id="products"></div></section>
+</main>
+<footer><div class="wrap">© 2026 Atlas Selección · Prototipo de tienda · Los productos y precios mostrados son de prueba.</div></footer>
+<div class="overlay" id="overlay" onclick="toggleCart(false)"></div><aside class="drawer" id="drawer"><div class="drawerHead"><h2>Tu cesta</h2><span class="close" onclick="toggleCart(false)">×</span></div><div class="cartitems" id="cartitems"></div><div class="total"><span>Total</span><strong id="total">0,00 €</strong></div><button class="checkout" onclick="openCheckout()">CONTINUAR AL CHECKOUT</button></aside>
+<section class="checkoutBox" id="checkout"><div class="checkoutInner"><button class="cartbtn" onclick="closeCheckout()">← Volver</button><div id="form"><div class="eyebrow" style="margin-top:35px">Checkout de prueba</div><h2 style="font:40px Georgia,serif">Finalizar pedido</h2><div class="test">MODO TEST — No se realizará ningún cobro real.</div><input placeholder="Nombre y apellidos"><input placeholder="Email" type="email"><input placeholder="Dirección"><div class="row"><input placeholder="Código postal"><input placeholder="Ciudad"></div><input placeholder="Número de tarjeta de prueba" value="4242 4242 4242 4242"><div class="row"><input placeholder="MM/AA" value="12/30"><input placeholder="CVC" value="123"></div><button class="checkout" style="width:100%" onclick="placeOrder()">REALIZAR PEDIDO DE PRUEBA · <span id="checkoutTotal"></span></button></div><div class="success" id="success"><div class="eyebrow">Pedido recibido</div><h2>Gracias por probar Atlas.</h2><p>Pedido de demostración <strong id="order"></strong></p><p style="color:#999">No se ha realizado ningún cargo.</p><button class="checkout" onclick="location.reload()">VOLVER A LA TIENDA</button></div></div></section>
+<script>
+const products=[{id:1,name:'Ribeye Premium',detail:'500 g aprox. · Vacuno',price:24.9},{id:2,name:'T-Bone',detail:'700 g aprox. · Vacuno',price:31.9},{id:3,name:'Tomahawk',detail:'1 kg aprox. · Vacuno',price:44.9},{id:4,name:'Solomillo',detail:'500 g aprox. · Vacuno',price:29.9}];let cart=[];const euro=n=>n.toLocaleString('es-ES',{style:'currency',currency:'EUR'});document.getElementById('products').innerHTML=products.map(p=>`<article class="card"><div class="photo">${p.name}</div><div class="info"><div class="tag">100% HALAL</div><h3>${p.name}</h3><div class="desc">${p.detail}<br>Selección Atlas</div><div class="price">${euro(p.price)}</div><button class="add" onclick="add(${p.id})">AÑADIR A LA CESTA</button></div></article>`).join('');function add(id){let x=cart.find(i=>i.id===id);if(x)x.qty++;else cart.push({...products.find(p=>p.id===id),qty:1});render();toggleCart(true)}function removeItem(id){cart=cart.filter(i=>i.id!==id);render()}function render(){let qty=cart.reduce((a,i)=>a+i.qty,0),sum=cart.reduce((a,i)=>a+i.price*i.qty,0);count.textContent=qty;total.textContent=euro(sum);checkoutTotal.textContent=euro(sum);cartitems.innerHTML=cart.length?cart.map(i=>`<div class="cartitem"><div><b>${i.name}</b><br><small>${i.qty} × ${euro(i.price)}</small></div><div><b>${euro(i.price*i.qty)}</b><br><span class="remove" onclick="removeItem(${i.id})">Eliminar</span></div></div>`).join(''):'<p style="color:#888">Tu cesta está vacía.</p>'}function toggleCart(force){let open=force===undefined?!drawer.classList.contains('open'):force;drawer.classList.toggle('open',open);overlay.classList.toggle('on',open)}function openCheckout(){if(!cart.length)return alert('Añade un producto antes de continuar.');toggleCart(false);checkout.classList.add('on')}function closeCheckout(){checkout.classList.remove('on')}function placeOrder(){document.getElementById('form').style.display='none';success.style.display='block';order.textContent='#AT-'+Math.floor(10000+Math.random()*90000);cart=[];render()}render();
+</script>
+</body></html>
